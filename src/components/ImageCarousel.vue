@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Image carousel</h1>
+    <h1 class="text-center text-5xl my-5">Image carousel</h1>
     <div class="image-carousel">
       <div class="carousel-wrapper">
         <div
@@ -51,9 +51,9 @@ const prevSlide = () => {
 </script>
 
 <style scoped>
-h1 {
+/* h1 {
   text-align: center;
-}
+} */
 .image-carousel {
   max-width: 600px;
   margin: 0 auto;
